@@ -1,12 +1,7 @@
-# WallyMagill.github.io
+# Wally Magill's Personal Portfolio
 
-Welcome to my personal website! This site showcases my front-end development skills and projects.
+This is my personal portfolio website, showcasing my work as a software developer.
 
-## About Me
-I’m a passionate front-end developer with experience in [technologies you're experienced in].
+## Attribution
 
-## Projects
-- [Project 1](link-to-project)
-- [Project 2](link-to-project)
-
-Check out my work and feel free to reach out!
+This website was originally based on the [Personal Portfolio by Ahsan Khan](https://github.com/ahsankhan26/personal-portfolio). I have customized the content, features, and design to suit my needs.
