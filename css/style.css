@@ -8828,6 +8828,27 @@ h1, h2, h3, h4, h5,
 .grow { transition: .2s ease-in-out;}
 .grow:hover { transform: scale(1.15); }
 
+/* added this for sub postions */
+.nested-position {
+  margin-left: 20px; /* Indents the nested positions */
+}
+
+.nested-position .position {
+  font-weight: inherit; /* Keeps the existing font weight from the original classes */
+  font-size: inherit; /* Keeps the existing font size from the original classes */
+}
+
+.nested-position .date {
+  color: inherit; /* Keeps the existing date color */
+  font-style: inherit; /* Keeps the existing date style */
+}
+
+/* Remove the bottom border from the last nested position */
+.resume-wrap .nested-position:last-child {
+  border-bottom: none; /* Remove the bottom border */
+  margin-bottom: 0; /* Remove any extra bottom margin */
+}
+
 .services-1 {
   margin-bottom: 40px;
   padding: 2em;
